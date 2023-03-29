@@ -1,0 +1,20 @@
+data_list:
+#  - /XinshizongTargetDetection_Clean_xiugai/Label/XinshizongTargetDetection_Clean/骑手预估/Xinshizong_TargetDetectionCarFace/add
+#  - /XinshizongTargetDetection_Clean_xiugai/Label/XinshizongTargetDetection_Clean/骑手预估/Xinshizong_TargetDetectPicture
+#  - /XinshizongTargetDetection_Clean_xiugai/Label/XinshizongTargetDetection_Clean/骑手预估/Xinshizong_TargetDetection_buchong
+#  - /XinshizongTargetDetection_Clean_xiugai/Label/XinshizongTargetDetection_Clean/骑手预估/XinshizongNight
+#  - /ElevatorEscalator
+#  - /XinshizongTargetDetection_nanning/Label/非卡口
+#  - /XinshizongTargetDetection_nanning/Label/常规非机动车
+#  - /PictureStructureAdd/Label/人员
+#  - /PictureStructureAdd/Label/机动车
+#  - /PictureStructureAdd/Label/非机动车
+#  - /FrontierDefensePicture/Label/Biaotu/含动物
+#  - /FrontierDefensePicture/Label/Biaotu/大图
+#  - /FrontierDefensePicture/Label/Biaotu/小图
+  - ./xml_dir/监控/Label
+
+subDataset_save_root: ./5Class_Dataset
+finally_dataset_path: ./five_class_final_all_exp_big_dataset
+
+class_num: 5
